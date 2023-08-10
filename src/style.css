@@ -1,3 +1,7 @@
+body {
+    background-color: whitesmoke;
+}
+
 header {   
     background-color: lightblue;
     padding: 24px;
@@ -19,4 +23,26 @@ header p::before {
 
 header p::after {
     content: ")";
+}
+
+/* Seção do site */
+
+section {
+    text-align: center;
+}
+
+section h1 {
+    font-size: 30px;
+    margin: 2.5em;
+}
+
+section p {
+    margin: 2em;
+    font-size: 16px;
+}
+
+section p::first-letter {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
 }
